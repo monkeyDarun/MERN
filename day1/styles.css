@@ -1,0 +1,20 @@
+@media screen and (max-width: 767px){   
+    #main-img{      
+        content:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxljCiU3pRUXpw-39aklTNk7BDV3G9Dn7ocw&s");
+    } 
+}
+table,td
+{
+    border: 1px black solid;
+    border-collapse:collapse;
+    border-radius: 5px;
+    background-color: blue;
+    text-align: center;
+}
+th
+{
+    border: 1px black solid;
+    border-collapse:collapse;
+    background-color: pink;
+    text-align: center;
+}
