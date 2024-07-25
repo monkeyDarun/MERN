@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+          four
+        </title>
+        <style>
+            @media screen and (max-width: 800px) {
+                .p{
+                    display: grid;
+                    grid-template-columns: auto auto;
+                }
+            }
+            @media screen and (max-width: 400px) {
+                .p{
+                    display: flex;
+                }
+            }
+            .p>div{
+                border: 1px solid;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="p">
+            <div style="background-color: aqua; width: 100px; height: 100px;"></div>
+            <div style="background-color: aqua; width: 100px; height: 100px;"></div>
+            <div style="background-color: aqua; width: 100px; height: 100px;"></div>
+            <div style="background-color: aqua; width: 100px; height: 100px;"></div>
+        </div>
+    </body>
+</html>
